@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cognifyz Internship</string>
+    <string name="hello_world">Hello World! Welcome to Cognifyz Technologies</string>
+    <string name="click_me">Click Me</string>
+    <string name="submit">Submit</string>
+    <string name="task_menu">Task Menu</string>
+</resources>

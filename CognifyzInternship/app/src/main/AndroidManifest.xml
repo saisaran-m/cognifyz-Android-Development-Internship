@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CognifyzInternship">
+
+        <!-- Task 1: Hello World App (Main Launcher) -->
+        <activity
+            android:name=".task1.HelloWorldActivity"
+            android:exported="true"
+            android:label="Cognifyz Internship">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Task Menu -->
+        <activity android:name=".TaskMenuActivity" android:label="Task Menu" />
+
+        <!-- Task 2: Button Interaction -->
+        <activity android:name=".task2.ButtonInteractionActivity" android:label="Task 2: Button Interaction" />
+
+        <!-- Task 3: List Display -->
+        <activity android:name=".task3.ListDisplayActivity" android:label="Task 3: List Display" />
+
+        <!-- Task 4: Basic UI Layout -->
+        <activity android:name=".task4.BasicUILayoutActivity" android:label="Task 4: Basic UI Layout" />
+        <activity android:name=".task4.ProfileActivity" android:label="Profile" />
+        <activity android:name=".task4.SettingsActivity" android:label="Settings" />
+
+        <!-- Task 5: Fetch and Display Data -->
+        <activity android:name=".task5.FetchDataActivity" android:label="Task 5: Fetch Data" />
+
+        <!-- Task 6: Simple Form -->
+        <activity android:name=".task6.SimpleFormActivity" android:label="Task 6: Simple Form" />
+
+        <!-- Task 7: Database Usage -->
+        <activity android:name=".task7.DatabaseActivity" android:label="Task 7: Database" />
+
+        <!-- Task 8: Navigation -->
+        <activity android:name=".task8.NavigationHomeActivity" android:label="Task 8: Navigation" />
+        <activity android:name=".task8.NavigationDetailActivity" android:label="Detail Screen"
+            android:theme="@style/Theme.CognifyzInternship" />
+        <activity android:name=".task8.NavigationAboutActivity" android:label="About Screen"
+            android:theme="@style/Theme.CognifyzInternship" />
+
+    </application>
+</manifest>
