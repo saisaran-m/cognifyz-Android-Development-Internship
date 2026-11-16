@@ -1,25 +1,25 @@
 # Level 1: Beginner
 
-This folder contains the tasks completed for **Level 1 (Beginner)** of the Cognifyz Android Development Internship.
+This directory contains the completed source code and layout files for Level 1 (Beginner) of the Cognifyz Android Development Internship.
 
 ## Tasks Included
 
 ### Task 1: Hello World App
-* **Objective:** Build a basic Android app with a welcome message.
-* **Steps Completed:**
-  1. Configured layout (`activity_hello_world.xml`) with TextView displaying "Hello World!" and Cognifyz branding.
-  2. Integrated smooth fade-in entrance animations.
-  3. Added an action button to navigate directly to the interactive task menu.
+* **Objective:** Build a foundational Android application displaying a branded welcome message.
+* **Implementation Details:**
+  1. Constructed `activity_hello_world.xml` layout featuring structured typography and Cognifyz branding.
+  2. Implemented smooth fade-in entrance animations via animation utility handlers.
+  3. Added an explicit action button navigating to the interactive task index.
 * **Files:**
   * `Task 1 - Hello World/HelloWorldActivity.java`
   * `Task 1 - Hello World/activity_hello_world.xml`
 
 ### Task 2: Button Interaction
-* **Objective:** Enhance the app with button interaction and feedback.
-* **Steps Completed:**
-  1. Added interactive buttons in `activity_button_interaction.xml` with unique IDs.
-  2. Implemented `View.OnClickListener` and `View.OnLongClickListener` in `ButtonInteractionActivity.java`.
-  3. Displayed interactive toasts and updated dynamic counter and status messages.
+* **Objective:** Implement interactive controls, user feedback, and state handling.
+* **Implementation Details:**
+  1. Configured action buttons in `activity_button_interaction.xml` with unique identifiers.
+  2. Bound `View.OnClickListener` and `View.OnLongClickListener` handlers in `ButtonInteractionActivity.java`.
+  3. Implemented dynamic Toast notifications alongside live counter updates and status messaging.
 * **Files:**
   * `Task 2 - Button Interaction/ButtonInteractionActivity.java`
   * `Task 2 - Button Interaction/activity_button_interaction.xml`

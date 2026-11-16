@@ -1,15 +1,15 @@
 # Level 3: Advanced
 
-This folder contains the tasks completed for **Level 3 (Advanced)** of the Cognifyz Android Development Internship.
+This directory contains the completed source code and layout files for Level 3 (Advanced) of the Cognifyz Android Development Internship.
 
 ## Tasks Included
 
 ### Task 5: Fetch and Display Data
-* **Objective:** Dynamically bind and display list data using modern `RecyclerView`.
-* **Steps Completed:**
-  1. Created `CourseItem` data model encapsulating course information.
-  2. Implemented `CourseAdapter` and `CourseViewHolder` utilizing `CardView` items with color accents.
-  3. Populated dynamic course dataset and handled card click interactions.
+* **Objective:** Dynamically bind and present dataset elements using the modern RecyclerView architectural pattern.
+* **Implementation Details:**
+  1. Defined `CourseItem` data model encapsulating course titles, descriptions, ratings, durations, and color indicators.
+  2. Implemented `CourseAdapter` and `CourseViewHolder` utilizing Material `CardView` components with custom accent borders.
+  3. Populated structured technical courses dataset and integrated card selection handlers.
 * **Files:**
   * `Task 5 - Fetch and Display Data/FetchDataActivity.java`
   * `Task 5 - Fetch and Display Data/CourseAdapter.java`
@@ -18,11 +18,11 @@ This folder contains the tasks completed for **Level 3 (Advanced)** of the Cogni
   * `Task 5 - Fetch and Display Data/item_course.xml`
 
 ### Task 6: Simple Form
-* **Objective:** Create a form with input validation and submission processing.
-* **Steps Completed:**
-  1. Built a complete registration layout with Name, Email, Phone, Gender radio buttons, and Domain dropdown.
-  2. Implemented field validation logic with error prompts.
-  3. Displayed real-time submission confirmation summary and feedback.
+* **Objective:** Build an end-to-end data input form with client-side validation and feedback processing.
+* **Implementation Details:**
+  1. Built an input form capturing Name, Email, Phone, Gender (radio group), and Technical Domain (dropdown spinner).
+  2. Implemented field validation logic with descriptive input error messages.
+  3. Rendered a comprehensive submission confirmation panel summarizing submitted user details.
 * **Files:**
   * `Task 6 - Simple Form/SimpleFormActivity.java`
   * `Task 6 - Simple Form/activity_simple_form.xml`
